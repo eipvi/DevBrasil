@@ -25,7 +25,7 @@ img {
 
 .db-container-img {
   height: 775px;
-  background-image: url('./imagens/devbrasil.svg');
+  background-image: url('../imagens/devbrasil.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -253,7 +253,7 @@ img {
 /* container de orçamento seguindo formato estruturado*/
 .orcamento-bg {
   height: 775px;
-  background-image: url('./imagens/beckgraud03.svg');
+  background-image: url('../imagens/beckgraud03.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }

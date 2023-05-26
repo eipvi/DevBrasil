@@ -1,0 +1,417 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.db-container-img {
+  height: 775px;
+  background-image: url('/imagens/devbrasil.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Menu*/
+.menu-bg {
+  width: 100%;
+  padding: 2px;
+  background: rgb(0, 0, 0);
+  position: fixed;
+  z-index: 999!important;
+}
+
+.menu {
+  max-width: 939px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  margin: 0 5px 0 0;
+  color: #ffffff;
+}
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav li a {
+  font-size: 0.93em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  color: #5386a6;
+}
+
+.menu-nav ul li.login a {
+  color: #5386a6;
+}
+
+.container {
+  max-width: 939px;
+  margin: 0 auto;
+}
+
+.container-introdução-bg {
+  display: block;
+  padding-top: 270px;
+}
+
+.introdução {
+  margin: 0 10px 10px 10px;
+  font-size: 3em;
+  color: #cfcfcf;
+}
+
+.introdução-dois {
+  margin: 0 0 30px 10px;
+  color: #cfcfcf;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.button {
+  width: 240.9px;
+  padding: 12px 100px;
+  margin: 30px 70px 0 10px;
+  text-decoration: none;
+  background-color: #5386a6;
+  color: #ffffff;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  background: #000000;
+  color: #cfcfcf;
+}
+
+.sobre {
+  margin: 0 auto;
+  padding: 240px 0px;
+  color: #cfcfcf;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-bg {
+  background-color: #000000;
+  width: 100%;
+}
+
+.sobre-info {
+  margin: -18px 15px 15px 15px;
+  flex: 2 1 300px;
+}
+
+.sobre-info h2 {
+  font-size: 3em;
+  color: #cfcfcf;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #cfcfcf;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+.solucoes-bg-container {
+  background: #ffffff;
+  color: #000000;
+}
+
+.solucoes-bg-container h2 {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 3em;
+  padding: 160px 0 0 10px;
+}
+
+.s-bg-solucoes {
+  max-width: 936px;
+  margin: 0 auto;
+}
+
+.solucoes {
+  max-width: 963px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1-c {
+  flex: 1 1 260px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item1-c h3 {
+  max-width: 300px;
+  margin: 15px auto;
+}
+
+.item1-c img {
+  margin: 0 auto;
+}
+
+.solucoes-item ul {
+  max-width: 300px;
+  margin: 25px 0 19px auto;
+  font-size: 1em;
+  font-style: italic;
+  color: #000000;
+}
+
+.button-bg {
+  display: block;
+  margin: 39px auto;
+  padding: 10px 65px;
+  text-decoration: none;
+  background-color: #5386a6;
+  color: #ffffff;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.s-button-bg {
+  position: absolute;
+  margin: 20px auto;
+  padding: 10px 65px;
+  text-decoration: none;
+  background-color: #5386a6;
+  color: #ffffff;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button-bg-enviar {
+  margin: 0 auto;
+  padding: 12px 115px;
+  text-decoration: none;
+  background-color: #5386a6;
+  color: #ffffff;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.s-bg-container {
+  height: 160px;
+  background-color: #ffffff;
+}
+/* container de orçamento seguindo formato estruturado*/
+.orcamento-bg {
+  height: 775px;
+  background-image: url('/imagens/beckgraud03.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orcamento-container {
+  max-width: 736px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.orcamento {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 260px;
+}
+
+.orcamento o-item {
+  flex: 0;
+  padding: 10px;
+}
+
+.o-item {
+  flex: 1;
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.orcamento h2 {
+  font-size: 2.62em;
+  font-weight: 400;
+}
+
+.orcamento p {
+  font-size: 1.25em;
+  font-style: italic;
+}
+/* Fim do container de orçamento seguindo formato estruturado*/
+.titulo-beneficios-bg {
+  background-color: #000000;
+}
+
+.b-container {
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b-um-container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 160px 0 0 10px;
+}
+
+.beneficios-bg {
+  background-color: #000000;
+}
+
+.b-um-container h2 {
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.beneficios-bg h3 {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.beneficios-bg p {
+  color: #ffffff;
+  font-size: 0.87rem;
+  margin-top: 10px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.b-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.b-dois-container {
+  background: #000000;
+  height: 130px;
+}
+.contato {
+  max-width: 936px;
+  height: 532px;
+  margin: 10px auto;
+}
+
+.contato h2 {
+  margin-top: 77px;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.contato ul {
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.contato ul li a {
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.contato ul li a img {
+  width: 21px;
+  height: 30px;
+  padding: 0 5px 0 0;
+}
+
+.contato-container-dois {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contato-formulario {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contato-formulario div {
+  margin-bottom: 20px;
+}
+
+.contato-formulario label {
+  display: block;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.contato-formulario input[type='email'],
+.contato-formulario input[type='text'],
+.contato-formulario textarea {
+  width: 291px;
+  padding: 12px;
+  border: none;
+  border-radius: none;
+  background-color: #f2f2f2;
+}
+
+.footer {
+  height: 118px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 32px 0;
+  color: #ffffff;
+  font-size: 0.9em;
+}

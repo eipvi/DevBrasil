@@ -20,4 +20,9 @@ Não disponivel no momento.
 
 ## Histórico de Versões
 
-- [x] Versão 01; 01/05/2023 a 27/05/2023: Landing page verão web
+Versão 01;
+
+- [x] Landing page verão web
+- [ ] Landing page versão mobile
+- [ ] SQl
+- [ ] Página de entrar

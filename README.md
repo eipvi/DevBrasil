@@ -32,10 +32,6 @@ Versão 01;
 - [ ] Página de entrar
 - [ ] Aplicação de mobile
 - [ ] Aplicativo mobile
-- [ ]
-- [ ]
-- [ ]
-- [ ]
 
 ![container1](https://github.com/eipvi/DevBrasil/assets/87573675/936d790b-a9d0-4f52-bb66-95497c69f05f)
 

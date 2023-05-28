@@ -3,6 +3,7 @@
   padding: 0px;
   font-family: 'Nunito', Helvetica, sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -27,8 +28,8 @@ img {
   .db-container-img {
     width: 100%;
     height: 100vh;
-    background-image: url('../imagens/devbrasil.svg');
-    background-position: center center;
+    background-image: url('../imagens/backgraud-container-um.png');
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -94,22 +95,17 @@ img {
 
   .container-introdução-bg h1 {
     font-size: 6em;
-    color: #cfcfcf;
+    color: #ffffff;
   }
 
   .container-introdução-bg h2 {
     font-size: 2.8em;
-    color: #cfcfcf;
-  }
-
-  .introdução {
+    color: #ffffff;
+    font-weight: 300;
   }
 
   .introdução-dois {
     margin: 0 0 83px 10px;
-    color: #cfcfcf;
-    font-size: 1.2em;
-    font-weight: 300;
   }
 
   .button {
@@ -140,6 +136,7 @@ img {
 @media screen and (min-width: 1200px) {
   .db-container-img {
     height: 775px;
+    background-position: left top;
   }
 
   /*Menu*/

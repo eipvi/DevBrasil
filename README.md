@@ -28,12 +28,13 @@ Versão 01;
 
 - [x] Landing page verão Web
 - [ ] Landing page versão Mobile
-- [ ] Pagina de perguntas frequentes
+- [ ] Pagina de Perguntas Frequentes
+- [ ] Pagina de Política de Privacidade
 - [ ] Página de entrar
-- [ ] Aplicação de mobile
-- [ ] Aplicativo mobile
+- [ ] Prototipação mobile
+- [ ] Codar mobile
 
-![container1](https://github.com/eipvi/DevBrasil/assets/87573675/936d790b-a9d0-4f52-bb66-95497c69f05f)
+![devbrasil1](https://github.com/eipvi/DevBrasil/assets/87573675/a4ef11e0-ca59-4332-add1-b7ee5ea59d17)
 
 ![container2](https://github.com/eipvi/DevBrasil/assets/87573675/1431243b-6666-4dcb-bc76-de3727c40bd4)
 

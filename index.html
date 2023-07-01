@@ -12,34 +12,39 @@
 </head>
 
 <body class="inicio">
-  <div class="db-container-img">
+  <div class="db-container-img container-bloco-bg">
     <div class="superinfo-bg">
     </div>
-    <header class="menu-bg">
+    <header id="header">
       <div class="menu">
         <div class="menu-logo">
           <a href="#">DevBrasil</a>
         </div>
-        <nav class="menu-nav">
-          <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#solucoes">Soluções</a></li>
-            <li><a href="#orcamento">Orçamento</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li class="login"><a href="./login.html">Login</a></li>
+        <nav id="nav">
+          <button id="btn-mobile-close"><img src="./imagens/Close.svg" alt=""></button>
+          <button id="btn-mobile"> <img src="./imagens/icon-menu.svg" alt=""></button>
+          <ul id="menu-ul">
+            <li class="nav-item-menu"><a href="#sobre">Sobre</a></li>
+            <li class="nav-item-menu"><a href="#solucoes">Soluções</a></li>
+            <li class="nav-item-menu"><a href="#orcamento">Orçamento</a></li>
+            <li class="nav-item-menu"><a href="#contato">Contato</a></li>
+            <li class="login nav-item-menu button-login-bg"><a href="./login.html">Login</a></li>
+          </ul>
         </nav>
       </div>
+
     </header>
     <section class="container">
-      <div class="container-introdução-bg">
-        <h1 class="introdução">Transforme Suas Ideias em <br> Projetos Descentralizados...</h1>
-        <h2 class="introdução-dois">Uma Comunidade de Desenvolvedores Brasileiros Preparados pra Você!</h2>
-        <a href="https://exemplo.com" class=" button">Saiba mais</a>
+      <div class="container-introducao-bg">
+        <h1 class="introducao">Transforme Suas Ideias em <br> Projetos Descentralizados...</h1>
+        <h2 class="introducao-dois">Uma Comunidade de Desenvolvedores Brasileiros Preparados pra Você!</h2>
+        <button class="button-bg">Saiba mais</button>
       </div>
     </section>
   </div>
+  </div>
   <section class="sobre-bg " id="sobre">
-    <div class="sobre container">
+    <div class="sobre">
       <div class="sobre-info">
         <h2>Sobre</h2>
         <p>Há mais de uma década no mercado, a DevBrasil
@@ -132,7 +137,7 @@
       <div class="orcamento">
         <h2 class="o-item">Conecte a sua empresa ao novo mundo tecnológico!</h2>
         <p class="o-item">Faça seu orçamento com um clique!</p>
-        <button class="button-bg">Fazer orçamento</button>
+        <button class="button-bg-beneficio" ;>Fazer orçamento</button>
       </div>
     </div>
   </section>
@@ -214,6 +219,7 @@
   <footer class="footer">
     <p>2023 © DevBrasil. Todos os direitos reservados.</p>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

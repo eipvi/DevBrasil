@@ -27,7 +27,7 @@ Não disponivel no momento.
 Versão 01;
 
 - [x] Landing page verão Web
-- [ ] Landing page versão Mobile
+- [x] Landing page versão Mobile
 - [ ] Pagina de Perguntas Frequentes
 - [ ] Pagina de Política de Privacidade
 - [x] Página de entrar

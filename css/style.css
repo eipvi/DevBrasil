@@ -171,10 +171,11 @@ img {
 .solucoes-bg-container {
   background: #ffffff;
   color: #000000;
-  margin-bottom: 160px;
+  margin-bottom: 190px;
 }
 
 .solucoes-bg-container h2 {
+  color: #000000;
   width: 960px;
   margin: 0 auto;
   font-size: 3em;
@@ -219,9 +220,7 @@ img {
 /* fim do container soluções */
 /* inicio container de orçamento */
 .orcamento-bg {
-  /* height: 795px; */
-  
-  height: 110vh;
+  height: 99vh;
   background-image: url('../imagens/beckgraud03.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,11 +255,11 @@ img {
 .orcamento h2 {
   font-size: 3em;
   font-weight: 400;
-  padding: 410px 0 0 0;
+  padding: 240px 0 0 0;
 }
 
 .orcamento p {
-  padding-bottom: 37px;
+  padding-bottom: 10px;
   font-size: 1.25em;
   font-style: italic;
 }
@@ -329,6 +328,7 @@ img {
 }
 
 .contato h2 {
+  color: #000000;
   margin-top: 77px;
   font-size: 2em;
   font-weight: 400;
@@ -430,7 +430,7 @@ img {
     cursor: pointer;
 }
 
-.button-bg-enviar {
+ .container-button .button-bg-enviar {
     margin: 0 auto;
   padding: 12px 120px;
   text-decoration: none;
@@ -565,6 +565,19 @@ margin: 10px auto;
   border-radius: 5px;
 }
 
+.s-button-bg {
+  display: block;
+  padding: 15px 79px;
+margin: auto;
+  text-decoration: none;
+  background-color: #5386a6;
+  color: #ffffff;
+  border: none;
+  font-size: 0.8em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 420px) {
 
@@ -576,7 +589,7 @@ margin: 10px auto;
 }
 
 @media screen and (max-width: 730px) {
-
+ 
 }
 
 @media screen and (max-width: 992px) {
@@ -700,8 +713,8 @@ margin: 10px auto;
 
   .solucoes-item ul {
     max-width: none;
-    margin: 25px 0 19px auto;
-    font-size: 2em;
+    margin: 25px 0 39px auto;
+    font-size: 2.3em;
   }
 
   .solucoes-bg-container h2 {
@@ -716,9 +729,17 @@ padding: 230px 30px;
 
 .orcamento-container {
   width: 766px;
-  padding: 250px 0 0 0;
+  padding: 90px 0 0 0;
 }
 
+/* .orcamento {
+  padding: 50px 30px;
+  } */
+
+  .orcamento h2 {
+    font-size: 3.3em;
+    padding: 196px 0 0 0;
+  }  
 
 
 .orcamento p {
@@ -788,12 +809,22 @@ font-size: 2.5em;
   margin-top:  60px;
   font-size: 2em;
 }
+
+
+.s-button-bg {
+  padding: 20px 79px;
+  font-size: 2em;
+}
 /* inicio pagina de login d. */
 
 .dbrasil-container-login-black {
   flex-wrap: wrap;
 
 }
+
+
+
+
 }
 
 
@@ -804,14 +835,7 @@ font-size: 2.5em;
 }
 
 @media screen and (max-width: 1364px) {
-  .orcamento {
-    padding: 50px 30px;
-    }
 
-    .orcamento h2 {
-      font-size: 2.5em;
-      padding: 196px 0 0 0;
-    } 
     
 }
 
